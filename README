@@ -1,1 +1,23 @@
 Hello
+
+update library to local: 
+git pull origin master
+
+push local: 
+git add README
+git commit -m 'first commit'
+git push -u origin master
+
+push a new local:
+Create A Repo on github.com
+$ mkdir ~/Hello-WorldCreates a directory for your project called "Hello-World" in your user directory
+$ cd ~/Hello-WorldChanges the current working directory to your newly created directory
+$ git initSets up the necessary Git files
+Initialized empty Git repository in /Users/your_user_directory/Hello-World/.git/
+$ touch README
+$ git add READMEStages your README file, adding it to the list of files to be committed
+$ git commit -m 'first commit'
+$ git remote add origin git@github.com:username/Hello-World.gitSets the origin for the Hello-World repo
+$ git push -u origin master
+
+
