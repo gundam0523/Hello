@@ -8,6 +8,12 @@ git add README
 git commit -m 'first commit'
 git push -u origin master
 
+delete Remote file:
+git status
+git rm README
+git commit -m 'delete README'
+git push origin master
+
 push a new local:
 Create A Repo on github.com
 $ mkdir ~/Hello-WorldCreates a directory for your project called "Hello-World" in your user directory
@@ -19,5 +25,3 @@ $ git add READMEStages your README file, adding it to the list of files to be co
 $ git commit -m 'first commit'
 $ git remote add origin git@github.com:username/Hello-World.gitSets the origin for the Hello-World repo
 $ git push -u origin master
-
-
